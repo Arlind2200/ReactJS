@@ -2,7 +2,7 @@ function shuffleValues() {
     let form = document.getElementById("myForm");
     let checkboxes = Array.from(document.querySelectorAll(".checkbox-label"));
     checkboxes.sort(() => Math.random() - 0.5);
-    console.log(checkboxes);
+    // console.log(checkboxes);
     checkboxes.forEach(checkbox => {
       form.appendChild(checkbox);
     });
